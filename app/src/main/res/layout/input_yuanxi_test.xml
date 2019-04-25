@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="院系信息表"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            >
+
+            <EditText
+                android:id="@+id/YuanXi_Num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="学院编号"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <EditText
+                android:id="@+id/YuanXi_Name"
+                android:hint="学院名称"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+            <EditText
+                android:id="@+id/YuanXi_XiNum"
+                android:hint="系编号"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+            <EditText
+                android:id="@+id/YuanXi_XiName"
+                android:hint="系名称"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="20dp"
+            android:text="更多信息"
+            android:textColor="#2196F3"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Bt_YuanXi_stu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:text="上一页"
+                />
+            <Button
+                android:id="@+id/Bt_YuanXi_ZhuanYe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:text="下一页"/>
+
+
+
+        </LinearLayout>
+    <Button
+        android:id="@+id/Bt_YuanXI_Commit"
+        android:text="提交"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

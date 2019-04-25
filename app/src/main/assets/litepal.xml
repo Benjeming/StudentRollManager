@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="StudentManager" />
+    <version value="22" />
+
+    <list>
+        <mapping class="db.Student"/>
+        <mapping class="db.JiangLi"/>
+        <mapping class="db.YuanXi"/>
+        <mapping class="db.ZhuanYe"/>
+    </list>
+
+
+</litepal>

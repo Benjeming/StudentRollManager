@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--首页文本格式-->
+    <!--添加功能，删除功能，查询功能，修改功能 4个按钮-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:text="首页"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/Bt_MainInsert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="添加功能"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/Bt_MainDelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="删除功能"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/Bt_MainUpdata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="修改功能"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/Bt_MainQuery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="查询功能"
+        android:textSize="40sp" />
+
+</LinearLayout>
